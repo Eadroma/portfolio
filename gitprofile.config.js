@@ -2,8 +2,8 @@
 
 const config = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (Required)
-    sortBy: 'stars', // stars | updated
+    username: 'eadroma', // Your GitHub org/user name. (Required)
+    sortBy: 'updated', // stars | updated
     limit: 10, // How many projects to display.
     exclude: {
       forks: false, // Forked projects will not be displayed if set to true.
@@ -11,88 +11,89 @@ const config = {
     },
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
+    linkedin: 'saif-boukottaya',
+    twitter: 'eadroma',
     facebook: '',
     instagram: '',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
-    website: 'https://arifszn.github.io',
-    phone: '',
-    email: 'arifulalamszn@gmail.com',
+    medium: '',
+    dev: '',
+    website: '',
+    phone: '+33 6 45 94 90 28',
+    email: 'boukottaya.jr@gmail.com',
   },
   skills: [
-    'PHP',
-    'Laravel',
     'JavaScript',
     'React.js',
+    'Vue.js',
     'Node.js',
-    'Nest.js',
+    'Express.js',
     'MySQL',
+    'PostgreSQL',
+    'MongoDB',
     'Git',
     'Docker',
-    'PHPUnit',
     'CSS',
-    'Antd',
     'Tailwind',
     'Bootstrap',
+    'Python',
+    'C'
   ],
   experiences: [
     {
-      company: 'Monstarlab Bangladesh',
-      position: 'Backend Engineer II',
-      from: 'September 2021',
-      to: 'Present',
+      company: 'Olympus',
+      position: 'Developer Web',
+      from: 'September 2022',
+      to: 'now'
     },
     {
-      company: 'My Offer 360 Degree',
-      position: 'Web Application Developer',
-      from: 'July 2019',
-      to: 'August 2021',
+      company: 'Reeasy',
+      position: 'Full Stack Developer',
+      from: 'April 2021',
+      to: 'April 2022',
     },
   ],
   education: [
     {
-      institution: 'American International University-Bangladesh',
-      degree: 'Bachelor of Science',
-      from: '2015',
-      to: '2019',
+      institution: 'OpenClassrooms',
+      degree: 'Web Developer',
+      from: '2021',
+      to: '2022',
     },
     {
-      institution: 'Cantonment College, Jessore',
-      degree: 'Higher Secondary Certificate (HSC)',
-      from: '2012',
-      to: '2014',
+      institution: 'Epitech',
+      degree: 'Not finished',
+      from: '2019',
+      to: '2020',
     },
     {
-      institution: 'Chowgacha Shahadat Pilot High School',
-      degree: 'Secondary School Certificate (SSC)',
-      from: '2007',
-      to: '2012',
+      institution: 'Marie Curie Highschool',
+      degree: 'High school diploma',
+      from: '2018',
+      to: '2018',
     },
   ],
   // Display blog posts from your medium or dev account. (Optional)
-  blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
-    limit: 3, // How many posts to display. Max is 10.
-  },
+  // blog: {
+  //   source: 'dev', // medium | dev
+  //   username: 'arifszn', // to hide blog section, keep it empty
+  //   limit: 3, // How many posts to display. Max is 10.
+  // },
   googleAnalytics: {
     // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
-    id: 'G-WLLB5E14M6', // Please remove this and use your own tag id or keep it empty
+    id: '', // Please remove this and use your own tag id or keep it empty
   },
-  hotjar: {
-    id: '2617601', //  Please remove this and use your own id or keep it empty
-    snippetVersion: 6,
-  },
+  // hotjar: {
+  //   id: '2617601', //  Please remove this and use your own id or keep it empty
+  //   snippetVersion: 6,
+  // },
   themeConfig: {
-    defaultTheme: 'corporate',
+    defaultTheme: 'business',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
-    disableSwitch: false,
+    disableSwitch: true,
 
     // Should use the prefers-color-scheme media-query,
     // using user system preferences, instead of the hardcoded defaultTheme
