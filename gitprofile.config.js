@@ -4,9 +4,9 @@ const config = {
   github: {
     username: 'eadroma', // Your GitHub org/user name. (Required)
     sortBy: 'updated', // stars | updated
-    limit: 10, // How many projects to display.
+    limit: 15, // How many projects to display.
     exclude: {
-      forks: false, // Forked projects will not be displayed if set to true.
+      forks: true, // Forked projects will not be displayed if set to true.
       projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
     },
   },
@@ -63,7 +63,7 @@ const config = {
     },
     {
       institution: 'Epitech',
-      degree: 'Not finished',
+      degree: '1 year',
       from: '2019',
       to: '2020',
     },
@@ -93,7 +93,7 @@ const config = {
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
-    disableSwitch: true,
+    disableSwitch: false,
 
     // Should use the prefers-color-scheme media-query,
     // using user system preferences, instead of the hardcoded defaultTheme
