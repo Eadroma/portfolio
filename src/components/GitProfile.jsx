@@ -10,6 +10,7 @@ import Experience from './experience';
 import Education from './education';
 import Project from './project';
 import Blog from './blog';
+import Projects from './projects';
 import {
   genericError,
   getInitialTheme,
@@ -181,8 +182,12 @@ const GitProfile = ({ config }) => {
                       />
                     </div>
                   </div>
-                  <div className="lg:col-span-2 col-span-1">
+                  <div className="lg:col-span-2 col-span-2">
                     <div className="grid grid-cols-1 gap-6">
+                      <Projects
+                        workingon={sanitizedConfig.workingOn}
+                        googleAnalytics={sanitizedConfig.googleAnalytics}
+                      />
                       <Project
                         repo={repo}
                         loading={loading}

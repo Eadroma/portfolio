@@ -181,6 +181,7 @@ export const sanitizeConfig = (config) => {
       themes: themes,
       customTheme: customTheme,
     },
+    workingOn: config?.workingOn
   };
 };
 

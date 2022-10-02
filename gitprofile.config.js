@@ -80,6 +80,20 @@ const config = {
       to: '2018',
     },
   ],
+  workingOn: [
+    {
+      title: 'Olympus - Dashboard',
+      description: 'A dashboard related to manage Olympus accounts and in-game feature',
+      img: 'https://res.cloudinary.com/datxh7pfw/image/upload/v1664708043/Olympus_sthl1n.png',
+      link: 'https://dashboard.olympusgg.com/',
+    },
+    {
+      title: 'Olympus - wiki',
+      description: 'A wiki related to Olympus made with docusaurus',
+      img: 'https://res.cloudinary.com/datxh7pfw/image/upload/v1664708154/Olympus-wiki.png',
+      link: 'https://wiki.olympusgg.com/'
+    },
+  ],
   // Display blog posts from your medium or dev account. (Optional)
   // blog: {
   //   source: 'dev', // medium | dev
