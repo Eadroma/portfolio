@@ -53,6 +53,12 @@ const config = {
       from: 'April 2021',
       to: 'April 2022',
     },
+    {
+      company: 'Access IT',
+      position: 'Full Stack Developer',
+      from: '2019',
+      to: '2021'
+    }
   ],
   education: [
     {
